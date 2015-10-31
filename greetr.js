@@ -16,4 +16,6 @@
 
 	Greetr.init.prototype = Greetr.prototype;
 
+	global.Greetr = global.G$ = Greetr;
+
 }(window, jQuery));
