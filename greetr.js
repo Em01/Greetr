@@ -16,6 +16,11 @@
 		es: 'Saludos'
 	};
 
+	var logMessages = {
+		en: 'Logged in',
+		es: 'Inicio sesion'
+	};
+
 	Greetr.prototype = {};
 
 	Greetr.init = function(firstName, lastName, language) {
